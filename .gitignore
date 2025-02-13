@@ -1,0 +1,9 @@
+node_modules
+downloads/
+input/
+output/
+.env
+.vscode/
+source/*
+input/*
+
