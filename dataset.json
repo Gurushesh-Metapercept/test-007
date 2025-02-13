@@ -1,0 +1,18 @@
+[
+  {
+    "p_id": "JRyCLgAfOKKurCkxRJfp",
+    "conaction": "mark",
+    "conref": "../../../../../../00_2024_Global_PwC_Audit/5000_Risk_and_Response/5702-2-1-1_2024.dita#bvm0q5biyj",
+    "nextPTag": "<p conaction=\"pushafter\" id=\"HrQeyCzLnGhZzGZfgzwL\" otherprops=\"status_inProgress\" outputclass=\"shade-grey\" class=\"- topic/p \"><b outputclass=\"shade-grey\" class=\"+ topic/ph hi-d/b \">ISA (UK) Guidance</b></p>",
+    "nextPTag_id": "HrQeyCzLnGhZzGZfgzwL",
+    "from": "input\\audit_2024 UK\\topic_edits\\topic_id_gpwcGuidance-1405\\element_id_bvm0q5biyj\\action_pushafter.dita"
+  },
+  {
+    "p_id": "J45tr22KurCkxRJfp",
+    "conaction": "mark",
+    "conref": "../../../../../../00_2024_Global_PwC_Audit/5000_Risk_and_Response/5702-2-1-1_2024.dita#bvm0q5biyj",
+    "nextPTag": "<p conaction=\"pushafter\" id=\"4t9jbdvbp1lzi5p\" otherprops=\"status_inProgress\" outputclass=\"shade-grey\" class=\"- topic/p \">The use of internal auditors to provide direct assistance is prohibited in an audit conducted in accordance with ISAs (UK). For a group audit this prohibition extends to the work of any component auditor which is relied upon by the group auditor, including for overseas components. Accordingly, the requirements and related application material in this ISA (UK) relating to direct assistance are not applicable <xref format=\"html\" href=\"https://pwc-assurance-assist.easydita.com/portal/pwc/permalink/UKISA610\" scope=\"external\" class=\"- topic/xref \">(ISA (UK) 610.5-1)</xref>.</p>",
+    "nextPTag_id": "4t9jbdvbp1lzi5p",
+    "from": "input\\audit_2024 UK\\topic_edits\\topic_id_gpwcGuidance-1405\\element_id_bvm0q5biyj\\action_pushafter.dita"
+  }
+]

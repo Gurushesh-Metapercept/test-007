@@ -4,6 +4,7 @@ const cheerio = require("cheerio");
 
 require("dotenv").config({ path: "./.env" });
 const { clearLogData } = require("./state/logData");
+const processDataset = require("./utils/processDataset");
 const outputFilePath = "dataset.json";
 
 let results = [];
@@ -77,6 +78,10 @@ async function processDitaFiles(directory) {
         JSON.stringify(results, null, 2),
         "utf-8"
       );
+
+      console.log(`✅ Data successfully written to ${outputFilePath}`);
+
+      await processDataset(results);
     } else {
       console.log("⚠ No matching <p> tags found.");
     }
@@ -88,7 +93,7 @@ async function processDitaFiles(directory) {
 // ✅ Wrap everything inside an async IIFE
 (async () => {
   try {
-    await processDitaFiles("./input/audit_2024 UK/topic_edits");
+    await processDitaFiles("./input/audit_2024 UK/topic_edits"); // update/adjust your path here
   } catch (error) {
     console.error("❌ Error during execution:", error);
   } finally {
